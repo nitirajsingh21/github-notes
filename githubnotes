@@ -1,0 +1,154 @@
+ github
+
+day1
+it is a Version control system, also known as source control , 
+is the practice of tracking and managing changes to software code.
+
+git is software for version control system
+three types
+local: local version control system(we are managing everything in our local machine)
+centralised: every user connected from system and everyone access from this system(if this system
+fails then we lose system files)and in this there is a deadlock condition(time taken to complete one process until
+second one comes
+(spof):single point of failure
+distributed:control system working on multiple devices and
+have acces to multiple user and it is a unique and have a collabrative environment
+
+git is a distributed control version system
+git manages our codes and files
+
+working directory(git addcommand)---->staging area(temporary locaton where we manages our files/git commit)------->git repository.git(folder which saves our file information)
+
+metadata(data about data)
+
+ls -a( to show hidden file)
+we make this puting . in front of 
+file
+to delete : rm .data.txt
+
+folder manage by git: git init
+
+git status:show us which file tracked by git
+
+git config --global user.name ""(for giving username who acces our file)
+for 2) user.email
+git config --list(to check the author of file)
+
+git commit(for insertion)git stat
+
+git log(to check the status of file)
+commit value is always unique
+
+github : hosting platform jahan pr online aap apni file manage karte h but using git
+git : software jo files ko manage karega 
+this saved in local machine now we want to save on platform
+ex:
+laptop:github
+hdd: git
+
+after commit we go in github and we create a new repository and copy three line in git
+git commit -m "xyz file added"
+
+head (current port)
+
+git push (for commit file in github)
+to set our folder upstream(git push –set-upstream)
+git diff(for comparison of staging area and working area repository)
+
+git mv old new file sudo shutdown -c
+git cp
+git rm
+
+branches,comparing file,gitpull,fetch,stashing,git tag
+
+Assignment:
+Q) data.txt file in user
+kabhi koi user bane then data.txt already assign ho jaye
+/etc/skel
+
+Q) my system shut down in every 5 minutes
+ sudo shutdown -c
+sudo shutdown --halt +5
+
+
+
+
+day2 :
+git diff filename:git l
+we get to know comparison in file values 
+
+BRANCH 
+------
+------
+
+branch (it is used to copy our main repository)
+to make branch-git branch branchname
+to switch branch(git checkout branchname)
+to merge the changes in main branch(git merge branch name)
+
+git clone(it is used to take our file from remote repo to local repo)  
+git fetch command is used to check the difference between remote repo and local repo
+git pull comand is used to pull the changes from remote repo to local repo
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+	Git:
+version control system tools that helps to track changes in code.
+git is  a version control system.
+it is popular free and open source
+it is fast and scalable
+1)to track the history
+2)collaborate
+configuring git
+---------------
+git configuring:
+git config--global user.name"My Name"
+git config--global user.email"someone@email.com"
+git config --list
+
+credential helper store our user name and mail
+`=tell us that we are in root directory
+--------------
+clone and status:
+local(files on pc or laptop)
+remote(file on github)
+clone:cloning a repository on our local machine
+git clone<project lin>
+forcefully hidden files show:Get-ChildItem -Force
+git status
+:display the status of the code.
+----
+after git status we got 4 thing
+->untracked:new files that git doesn't yet track
+->modified:changed
+->staged:file is ready to be commited
+->unmodified->unchanged
+------------
+working directory(git addcommand)---->staging area(temporary locaton where we manages our files/git commit)------->git repository.git(folder which saves our file information)
+git add (add new or changed file in your working directory to the git staging area)
+git add (filename)
+git restore to staged file to unstage
+git add.(to add all files)
+git commit :it is record of change
+git commit -m"some message"
+push command :to upload local repo to remote repo.
+git push origin main
+------
+origin:default repo
+main(branch)
+here from remote repo we select default repo (which have info about project change)
+----------
+first we make our folder git repo then we upload on github
+
+git init 
+git remote add origin<link>
+git remote -v(to verify remote)
+git branch(branch is like different fields work on one branch)
+git branch -M main
+git push -u origin main
+u(to set upstream to upload code on that main branch so we cannot write again and again)
+
+GITHUB:
+website that allows developers to store and manage their code using git. 
+repository(folder where our work store
+github save our changes
