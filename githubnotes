@@ -99,6 +99,7 @@ it is used to give label to code
 we use command :git tag v1
 to go again to comit area:git checkout v1
 to upload the git tag file (git --tag)
+to delete tag use (git tag -d)
 Fork(if we want to copy any folder on our profile)
 
 ----------------------------------------------------------------------------------------------------------------------------------------
