@@ -90,6 +90,17 @@ git clone(it is used to take our file from remote repo to local repo)
 git fetch command is used to check the difference between remote repo and local repo
 git pull comand is used to pull the changes from remote repo to local repo
 
+Tag
+----
+----
+Tag provides a way to kmark a specific commit(they are simply a way  to mark a specific commit and make it easy to refer in the future
+it like a checkpoint 
+it is used to give label to code
+we use command :git tag v1
+to go again to comit area:git checkout v1
+to upload the git tag file (git --tag)
+Fork(if we want to copy any folder on our profile)
+
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 	Git:
